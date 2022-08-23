@@ -9,7 +9,7 @@
 <body class="page centered-block">
 
   <header class="header">
-    <img class="header__logo" src="./images/logo.png" alt="Логотип Место">
+    <img class="header__logo" src="./images/logo.svg" alt="Логотип Место">
   </header>
 
   <main class="content">
@@ -20,12 +20,12 @@
         <div class="profile__info">
           <div>
             <h1 class="profile__title">Жак-Ив Кусто</h1>
-            <button class="profile__edit"></button>
+            <button class="profile__edit" type="button"></button>
           </div>
           <p class="profile__subtitle">Исследователь океана</p>
         </div>
       </figure>
-      <button class="profile__add-button"></button>
+      <button class="profile__add-button" type="button"></button>
     </section>
 
     <section class="elements">
@@ -34,7 +34,7 @@
         <img class="elements__image" src="./images/karachaevsk.jpg" alt="Карачаево-Черкессия">
         <div class="elements__description">
           <h2 class="elements__title">Карачаево-Черкессия</h2>
-          <button class="elements__like elements__ellipsis"></button>
+          <button class="elements__like elements__ellipsis" type="button"></button>
         </div>
       </article>
 
@@ -42,7 +42,7 @@
         <img class="elements__image" src="./images/elbrus.jpg" alt="Гора Эльбрус">
         <div class="elements__description">
           <h2 class="elements__title">Гора Эльбрус</h2>
-          <button class="elements__like"></button>
+          <button class="elements__like" type="button"></button>
         </div>
       </article>
 
@@ -50,7 +50,7 @@
         <img class="elements__image" src="./images/dombay.jpg" alt="Домбай">
         <div class="elements__description">
           <h2 class="elements__title">Домбай</h2>
-          <button class="elements__like"></button>
+          <button class="elements__like" type="button"></button>
         </div>
       </article>
 
@@ -58,7 +58,7 @@
         <img class="elements__image" src="./images/bermamyt.jpg" alt="Бермамыт">
         <div class="elements__description">
           <h2 class="elements__title">Бермамыт</h2>
-          <button class="elements__like"></button>
+          <button class="elements__like" type="button"></button>
         </div>
       </article>
 
@@ -66,7 +66,7 @@
         <img class="elements__image" src="./images/arkhyz.jpg" alt="Архыз">
         <div class="elements__description">
           <h2 class="elements__title">Архыз</h2>
-          <button class="elements__like"></button>
+          <button class="elements__like" type="button"></button>
         </div>
       </article>
 
@@ -74,7 +74,7 @@
         <img class="elements__image" src="./images/ullu-kell.jpg" alt="Уллу-Кёль">
         <div class="elements__description">
           <h2 class="elements__title">Уллу-Кёль</h2>
-          <button class="elements__like"></button>
+          <button class="elements__like" type="button"></button>
         </div>
       </article>
 
@@ -87,14 +87,14 @@
       © 2022 Mesto Russia</p>
   </footer>
 
-  <div class="popup popup_opened">
+  <div class="popup">
     <div class="popup__container">
-      <button class="popup__button"></button>
-      <form class="form-profile">
+      <button class="popup__button" type="button"></button>
+      <form class="form-profile" name="form-profile">
         <h2 class="form-profile__title">Редактировать профиль</h2>
         <input class="form-profile__input" name="name" type="text" placeholder="Жак-Ив Кусто">
         <input class="form-profile__input" name="activity" type="text" placeholder="Исследователь океана">
-        <button class="form-profile__save">Сохранить</button>
+        <button class="form-profile__save" type="submit">Сохранить</button>
       </form>
     </div>
   </div>

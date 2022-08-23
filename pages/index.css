@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url(../fonts/Inter/inter.css);
+@import url(../vendor/fonts/Inter/inter.css);
 
 @import url(../blocks/centered-block/centered-block.css);
 
