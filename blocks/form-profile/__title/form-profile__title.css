@@ -1,0 +1,16 @@
+.form-profile__title {
+  margin: 0;
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.21;
+  padding-bottom: 54px;
+}
+
+@media all and (max-width: 600px) {
+  .form-profile__title {
+    font-size: 18px;
+    line-height: 1.22;
+    padding-bottom: 75px;
+  }
+}
