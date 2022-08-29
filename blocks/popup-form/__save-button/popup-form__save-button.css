@@ -1,8 +1,8 @@
-.form-profile__save {
+.popup-form__save-button {
   padding: 16px;
   font-size: 18px;
+  line-height: 1.22;
   width: 100%;
-  max-width: 358px;
   height: 50px;
   display: block;
   margin-top: 48px;
@@ -10,16 +10,19 @@
   border-radius: 2px;
   background: #000;
   color: #fff;
+  transition: .3s;
 }
 
 @media all and (max-width: 600px) {
-  .form-profile__save {
-    margin-top: 40px;
+  .popup-form__save-button {
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 1.21;
+    height: 46px;
   }
 }
 
-.form-profile__save:hover {
+.popup-form__save-button:hover {
   opacity: .8;
-  transition: .3s;
   cursor: pointer;
 }

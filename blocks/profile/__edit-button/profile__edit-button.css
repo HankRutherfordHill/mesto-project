@@ -1,4 +1,4 @@
-.profile__edit {
+.profile__edit-button {
   background: url(../../../images/edit-button.svg);
   width: 24px;
   height: 24px;
@@ -6,20 +6,21 @@
   border: 0;
   padding: 0;
   margin-left: 18px;
+  margin-top: 6px;
+  transition: .3s;
 }
 
 @media all and (max-width: 700px) {
-  .profile__edit {
+  .profile__edit-button {
     background: url(../../../images/edit-button320.svg);
     width: 18px;
     height: 18px;
     margin-left: 10px;
-
+    margin-top: 21px;
   }
 }
 
-.profile__edit:hover {
+.profile__edit-button:hover {
   cursor: pointer;
   opacity: .6;
-  transition: .3s;
 }
