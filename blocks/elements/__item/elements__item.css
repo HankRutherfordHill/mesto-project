@@ -1,5 +1,5 @@
 .elements__item {
   width: 100%;
-  border-radius: 2%;
+  border-radius: 10px;
   overflow: hidden;
 }
