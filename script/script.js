@@ -21,3 +21,21 @@ placeAddButton.addEventListener('click', function() {
 placeCloseButton.addEventListener('click', function() {
   popupPlace.classList.remove('popup_opened');
 });
+
+const formElement = document.querySelector('#popup-profile-form');
+const nameInput = formElement.querySelector('input[name = "name"]');
+const jobInput = formElement.querySelector('input[name = "activity"]');
+
+function formSubmitHandler (evt) {
+    evt.preventDefault();
+
+    let name = document.querySelector('.profile__title');
+    let job = document.querySelector('.profile__subtitle');
+
+    name.textContent = nameInput.value;
+    job.textContent = jobInput.value;
+
+    popupProfile.classList.remove('popup_opened');
+}
+
+formElement.addEventListener('submit', formSubmitHandler);
